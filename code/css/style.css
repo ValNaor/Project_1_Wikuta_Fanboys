@@ -80,7 +80,7 @@ h2{
     justify-content: space-around;
     min-width: 100%;
     min-height: 14em;
-    background-image: url(../../images/landingpage_homepage.jpg);
+    background-image: url(../../images/landingpage_homepage_3.JPG);
     width: max-content;
     background-repeat: no-repeat;
     background-size: cover;
@@ -243,7 +243,6 @@ footer{
 
     display: flex;
     flex-wrap: wrap;
-
     background-color: #467060;
     height: 11em;
 }
@@ -304,7 +303,15 @@ footer p{
 
     max-width: 50%;
     position: relative;
+    transition: 1s;
+}
 
+#doelen section img:active{
+
+    max-width: 70%;
+    position: relative;
+    transition: 1s;
+    z-index: 1;
 }
 
 #doelen section h2:nth-child(1){
@@ -356,4 +363,19 @@ footer p{
 
     padding-top: 3em;
     
+}
+
+#materialen section{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+#materialen section h2{
+
+    color: #467060;
+    padding-top: 3em;
+    font-size: 1.5em;
 }
